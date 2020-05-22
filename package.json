@@ -1,0 +1,65 @@
+{
+  "name": "jeft-vue-directive",
+  "version": "0.3.0",
+  "description": "vue-directive-plugin",
+  "main": "lib/jeft-vue-directive.umd.min.js",
+  "files": [
+    "lib",
+    "packages"
+  ],
+  "keywords": [
+    "vue",
+    "vue-directive",
+    "jeft",
+    "longTap",
+    "长按事件",
+    "slide",
+    "左右滑动事件",
+    "growHeight",
+    "自增高",
+    "clickOut",
+    "点击元素外部事件"
+  ],
+  "author": "jeft-hai",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JEFT-hai/jeft-vue-directive"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name jeft-vue-directive --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}
