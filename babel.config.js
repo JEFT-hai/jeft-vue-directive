@@ -1,14 +1,14 @@
 /*
  * @Author: your name
  * @Date: 2020-05-21 10:38:34
- * @LastEditTime: 2020-05-22 17:27:03
+ * @LastEditTime: 2020-05-22 17:50:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jeft-vue-plugin\jeft-vue-directive\babel.config.js
  */ 
 module.exports = {
   presets: [
-    '@vue/cli-plugin-babel/preset'
+    // '@vue/cli-plugin-babel/preset'
   ],
   plugins: [
     [

@@ -1,10 +1,9 @@
 {
   "name": "jeft-vue-directive",
-  "version": "0.3.0",
+  "version": "0.3.4",
   "description": "vue-directive-plugin",
-  "main": "lib/jeft-vue-directive.umd.min.js",
+  "main": "packages/index.js",
   "files": [
-    "lib",
     "packages"
   ],
   "keywords": [
@@ -34,9 +33,6 @@
     "lib": "vue-cli-service build --target lib --name jeft-vue-directive --dest lib packages/index.js"
   },
   "dependencies": {
-    "babel-plugin-import": "^1.13.0",
-    "core-js": "^3.6.4",
-    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
